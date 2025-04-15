@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MobileToPC</string>
+
+    <string name="permission">Permission</string>
+    <string name="permission_details">App requires storage Permission.\nPlease allow this permission to continue.</string>
+    <string name="cancel">Cancel</string>
+    <string name="allow">Allow</string>
+    <string name="permissions_required">Permissions Required</string>
+    <string name="you_have_denied_some_permissions_please_allow_all_permissions_to_continue">You have denied some permissions. Please Allow all Permissions to continue</string>
+    <string name="grant_permissions">Grant Permissions</string>
+    <string name="skip">Skip</string>
+    <string name="files_downloaded_from_pc_nwill_appear_here">Files downloaded from PC\nwill appear here</string>
+    <string name="retry">Retry</string>
+    <string name="no_internet_connection">No Internet Connection.</string>
+    <string name="exit">Exit</string>
+    <string name="your_pin_for_login_into_browser">Your PIN for login into browser: \n%1$s</string>
+    <string name="connect_via_http_phone_and_pc_must_be_on_a_same_network">"Connect via http://%1$s\nPhone and PC must be on a same network. "</string>
+    <string name="server_started_at_http">Server started at http://%1$s</string>
+
+</resources>

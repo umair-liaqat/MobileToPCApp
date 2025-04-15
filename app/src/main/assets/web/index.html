@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Android File Server</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h2>Android File Server</h2>
+
+<!-- File Upload -->
+<input type="file" id="fileInput">
+<button onclick="startUploadingFiles()">Upload</button>
+
+<progress id="uploadProgress" value="0" max="100" style="width: 100%; display: none;"></progress>
+
+
+<h3>Drop Files here</h3>
+<div id="drop-area">
+    <p>Drag and drop files here</p>
+    <p id="uploadHint" style="display: none;">Now click on Upload to send file on Mobile</p>
+
+    <input type="file" id="file-input" multiple style="display: none;">
+</div>
+
+<!-- File List -->
+<h3>Files on Device:</h3>
+
+<div id="spinner" style="display: block;"></div>
+
+<div id="fileList"></div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+input, button {
+    margin: 10px;
+    padding: 8px;
+}
+
+#fileList {
+    margin-top: 20px;
+}
+
+#fileList a {
+    display: block;
+    padding: 10px;
+    margin: 5px auto;
+    width: 60%;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease-in-out;
+}
+
+#fileList a:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+    #drop-area {
+        border: 2px dashed #ccc;
+        padding: 20px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    #drop-area.highlight {
+        border-color: green;
+        background-color: #f0f0f0;
+    }
+
+/* for spinner */
+#spinner {
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #007bff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 20px auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
